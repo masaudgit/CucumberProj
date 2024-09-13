@@ -8,8 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 		glue={"stepDefinitions"},
 		//Now, I want to generate Report in Cucumber as well.
 		plugin= {"pretty", "json:target/myReports/report.json",
-							"junit:target/myReports/report.xml"
-		}
+						   "junit:target/myReports/report.xml"
+				}
 		
 		)
 
